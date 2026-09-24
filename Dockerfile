@@ -14,6 +14,8 @@ RUN pip install --no-cache-dir torch torchvision --index-url https://download.py
     && pip install --no-cache-dir -r requirements.txt
 
 COPY app ./app
+COPY model ./model
+COPY images ./images
 
 EXPOSE 8080
 
