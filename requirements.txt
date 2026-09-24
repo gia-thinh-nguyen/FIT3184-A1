@@ -1,0 +1,7 @@
+ultralytics
+fastapi>=0.115
+uvicorn[standard]>=0.31
+pydantic>=2.11
+pillow>=10.0
+dash>=2.17
+a2wsgi>=1.10
